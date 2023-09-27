@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAECF0;
+    ;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1,
+h2 {
+    color: #4E5468;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+h2 {
+    color: #8289A5;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 56px;
+}
+
+.showButton {
+
+    min-width: 84px;
+    padding: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.40) 4.29%, rgba(255, 255, 255, 0.40) 95.6%), #EAECF0;
+    background-blend-mode: soft-light, normal;
+    box-shadow: 9px 9px 16px 0px rgba(166, 171, 189, 0.40), -9px -9px 16px 0px rgba(250, 251, 255, 0.40);
+    cursor: pointer;
+}
+
+.showButtonPush {
+
+    min-width: 84px;
+    padding: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: var(--neo-fill, linear-gradient(135deg, rgba(0, 0, 0, 0.40) 4.29%, rgba(255, 255, 255, 0.40) 95.6%), #EAECF0);
+    background-blend-mode: soft-light, normal;
+    box-shadow: 9px 9px 16px 0px rgba(166, 171, 189, 0.40) inset, -9px -9px 16px 0px rgba(250, 251, 255, 0.40) inset;
+
+}
+
+.spanText {
+    color: #8289A5;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.showId,
+.showText {
+    color: #8289A5;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
